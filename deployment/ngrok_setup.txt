@@ -1,1 +1,16 @@
+# NGROK SETUP GUIDE
+
+1. Install ngrok
+   Download: https://ngrok.com/download
+   Extract and move executable to PATH
+
+2. Authenticate
+   ngrok config add-authtoken YOUR_AUTH_TOKEN
+
+3. Run tunnel for Streamlit app (default port 8501)
+   ngrok http 8501
+
+4. Copy the Forwarding URL
+   Example: https://abcd1234.ngrok-free.app
+   Use this URL to access your app remotely.
 
