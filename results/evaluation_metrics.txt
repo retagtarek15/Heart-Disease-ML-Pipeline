@@ -1,1 +1,5 @@
 
+Logistic Regression: 0.8333
+Random Forest: 0.8667
+SVM: 0.8500
+Best RF parameters: {'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}
